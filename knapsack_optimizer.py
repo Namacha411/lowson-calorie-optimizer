@@ -2,7 +2,7 @@ import pandas as pd
 import sys
 
 
-def load_food_data(csv_file="lawson_food_data.csv"):
+def load_food_data(csv_file="dataset/lawson_food_data.csv"):
     """Load food data from CSV file"""
     try:
         df = pd.read_csv(csv_file)
